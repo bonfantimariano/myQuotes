@@ -24,7 +24,6 @@ export class QuotesPage implements OnInit {
 
         const alertCtrl = this.alertCtrl.create({
             title: 'Add Quote',
-            subtitle: 'Are you sure?',
             message: 'Are you sure you want to add the quote?',
             buttons: [
                 {

@@ -1,3 +1,5 @@
+import { Quote } from "../data/quote.interface";
+
 export class QuotesService {
     private favoriteQuotes: Quote[] = [];
 
